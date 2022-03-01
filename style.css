@@ -6,4 +6,48 @@
   line-height: 104px;
   color: #dadada;
   color: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+  margin-top: 91px;
+}
+
+.menus {
+  position: relative;
+  top: 35px;
+}
+
+.menus li {
+  display: inline-block;
+  margin-left: 45px;
+}
+.menus a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.div-menu {
+  position: relative;
+  margin-left: 300px;
+  bottom: 35px;
+}
+
+.div-input {
+  position: relative;
+  left: 1000px;
+  bottom: 50px;
+}
+
+.input-searching {
+  background-image: url('./img/lupa.png');
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin-bottom: 90px;
+  border: 0px solid;
+  background-color: #f2f2f2;
+  width: 200px;
+  height: 30px;
+}
+
+.logo-sneak {
+  position: relative;
+  top: 35px;
+  left: 60px;
 }
