@@ -155,6 +155,16 @@
 .content-main {
   position: relative;
   top: 450px;
+  margin-left: 60px;
+}
+
+.content-principle1 {
+  margin-top: 300px;
+}
+
+.div-text-content1 {
+  position: relative;
+  bottom: 250px;
 }
 
 .content-principle1 h3 {
@@ -163,4 +173,113 @@
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
+  color: #dadada;
+  color: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+}
+
+.content-principle1 p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.div-img-content1 {
+  position: absolute;
+  bottom: 1800px;
+  left: 620px;
+}
+
+.div-img-content1 img {
+  width: 554px;
+  height: 450px;
+}
+
+.content-principle2 {
+  margin-top: 600px;
+}
+
+.content-principle2 h3 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.content-principle2 p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.img1-content2 {
+  width: 344px;
+  height: 500px;
+}
+
+.img2-content2 {
+  width: 252px;
+  height: 500px;
+}
+
+.div-content-text2 {
+  position: absolute;
+  left: 675px;
+  top: 250px;
+}
+
+.div-img-content2 {
+  position: relative;
+  bottom: 550px;
+}
+
+.div-content-text3 {
+  position: absolute;
+  top: 900px;
+}
+
+.div-content-text3 h3 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  background: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.div-content-text3 p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.div-img-content3 img {
+  width: 604px;
+  height: 600px;
+}
+
+.div-img-content3 {
+  position: relative;
+  left: 580px;
+  bottom: 400px;
 }
