@@ -91,13 +91,22 @@
 }
 
 .first-teniswhite {
+  width: 485px;
+  height: 485px;
+  background-color: grey ;
+  background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92% );
+  border-radius: 50% ;
   position: relative;
-  left: 400px;
-  bottom: 450px;
-  background-image: url(../img/Ellipse-1.png);
-  background-repeat: no-repeat;
-  background-position: 35%;
-  background-size: 40%;
+  left: 650px;
+  bottom: 440px;
+}
+/* posição do tenis */
+.whitetenis {
+  position: absolute;
+  top: 3px;
+  right: -160px;
+  width: 995px;
+  height: 541px;
 }
 
 .aside h3 {
@@ -150,6 +159,7 @@
   top: 800px;
   border-radius: 8px;
   align-items: center;
+  /* background-image: url(../img/Image.png); */
 }
 
 .content-main {
@@ -285,23 +295,136 @@
 }
 
 .div-content4 {
-  position: relative;
-  bottom: 200px;
+  position: absolute;
+  top: 3700px;
+  background-image: url(../img/Image.png);
+  width: 1340px;
+  height: 620px;
 }
 
-.div-content4 h3 {
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 75px;
+.div-content4 h2 {
+  color: white;
   font-family: 'Gilroy';
   font-style: normal;
-  position: relative;
-  top: 400px;
-  color: #ffffff;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
 }
 
-.div-content4 img {
-  width: 1350px;
-  height: 620px;
-  margin-left: -15px;
+.run{
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+}
+
+.direction{
+  position: relative;
+  bottom: 5px;
+  padding-right: 20px;
+}
+
+.know-more {
+  position: relative;
+  top: 1000px;
+}
+
+.maps{
+  position: absolute;
+  width: 627px;
+  height: 638px;
+  left: 60px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.footer{
+  position: relative;
+  top: 1200px;
+}
+
+.location{
+  position: relative;
+  left: 687px;
+  width: 590px;
+  height: 638px;
+  background: #F3F3F3;
+border-radius: 0px 8px 8px 0px; 
+}
+
+.form-map h3{
+ position: absolute;
+ bottom: 540px;
+ left: 720px;
+ font-family: 'Gilroy';
+ font-style: normal;font-weight: 700;font-size: 40px;line-height: 48px;
+ color: #1F1F1F;
+}
+
+.name-map{
+  position: absolute;
+  bottom: 520px;
+  left: 720px;
+  background: #FFFFFF;
+  border-radius: 12px;;
+  width: 517px;
+  height:50px ;
+  border: 0ch;
+  border-radius: 12px;
+}
+
+.email-map{
+  position: absolute;
+  bottom: 450px;
+  left: 720px;
+  background: #FFFFFF;
+  border-radius: 12px;;
+  width: 517px;
+  height:50px ;
+  border: 0ch;
+  border-radius: 12px;
+}
+
+.coment-map{
+  position: absolute;
+  bottom: 155px;
+  left: 720px;
+  background: #FFFFFF;
+  border-radius: 12px;;
+  width: 517px;
+  height:270px ;
+  border: 0ch;
+  border-radius: 12px;
+}
+
+.check-map{
+  position: absolute;
+  bottom: 100px;
+  left: 720px;
+  background: #FFFFFF;
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.text-check-map{
+  position: absolute;
+  bottom: 84px;
+  left: 750px;
+  color: 
+  #969696;
+  font-size: 19px;
+}
+
+.button-load{
+  position: absolute;
+  left: 720px;
+  bottom: 20px;
+  width: 250px;
+  height: 55px;
+  background: #F3F3F3;
+  border: 2px solid #1f1f1f;
+  border-radius: 8px;
+  align-items: center;
 }
