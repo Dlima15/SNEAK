@@ -1,12 +1,15 @@
+
+
 .menus {
   position: relative;
-  top: 35px;
+  top: 38px;
 }
 
 .menus li {
   display: inline-block;
   margin-left: 45px;
 }
+
 .menus a {
   text-decoration: none;
   color: #1f1f1f;
@@ -14,18 +17,18 @@
 
 .div-menu {
   position: relative;
-  margin-left: 300px;
-  bottom: 35px;
+  left: 300px;
+  bottom: 38px;
 }
 
 .div-input {
   position: relative;
   left: 1000px;
-  bottom: 50px;
+  bottom: 48px;
   background-image: url(../img/Ellipse-1.png);
   background-repeat: no-repeat;
-  background-position: 18% 0%;
-  background-size: 3%;
+  background-position: 238px -2px;
+  background-size: 40px;
 }
 
 .input-searching {
@@ -46,9 +49,22 @@
   left: 4px;
 }
 
+
+.buy {
+  background-image: url(../img/Ellipse-1.png);
+  background-repeat: no-repeat;
+  background-position: 238px -2px;
+  background-size: 40px;
+}
+
 .botao-sacola {
   /*border-color: white;*/
-  border: 0px solid;
+  position: absolute;
+  top: 6px;
+  left: 242px;
+  border: 0px solid rgba(0, 0, 0, .4);
+  width: 10px;
+  height: 10px;
 }
 
 .logo-sneak {
@@ -68,7 +84,7 @@
   border-color: #1f1f1f;
   width: 200px;
   height: 50px;
-  background-color: white;
+  background-color: #FFFFFF;
   background-image: url(../img/plus.png);
   background-repeat: no-repeat;
   background-position: 3%;
@@ -93,13 +109,14 @@
 .first-teniswhite {
   width: 485px;
   height: 485px;
-  background-color: grey ;
-  background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92% );
-  border-radius: 50% ;
+  background-color: grey;
+  background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+  border-radius: 50%;
   position: relative;
   left: 650px;
   bottom: 440px;
 }
+
 /* posição do tenis */
 .whitetenis {
   position: absolute;
@@ -311,13 +328,13 @@
   line-height: 80px;
 }
 
-.run{
+.run {
   position: relative;
   bottom: 40px;
   left: 30px;
 }
 
-.direction{
+.direction {
   position: relative;
   bottom: 5px;
   padding-right: 20px;
@@ -328,7 +345,7 @@
   top: 1000px;
 }
 
-.maps{
+.maps {
   position: absolute;
   width: 627px;
   height: 638px;
@@ -336,66 +353,72 @@
   border-radius: 8px 0px 0px 8px;
 }
 
-.footer{
+.footer {
   position: relative;
   top: 1200px;
 }
 
-.location{
+.location {
   position: relative;
   left: 687px;
   width: 590px;
   height: 638px;
   background: #F3F3F3;
-border-radius: 0px 8px 8px 0px; 
+  border-radius: 0px 8px 8px 0px;
 }
 
-.form-map h3{
- position: absolute;
- bottom: 540px;
- left: 720px;
- font-family: 'Gilroy';
- font-style: normal;font-weight: 700;font-size: 40px;line-height: 48px;
- color: #1F1F1F;
+.form-map h3 {
+  position: absolute;
+  bottom: 540px;
+  left: 720px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #1F1F1F;
 }
 
-.name-map{
+.name-map {
   position: absolute;
   bottom: 520px;
   left: 720px;
   background: #FFFFFF;
-  border-radius: 12px;;
+  border-radius: 12px;
+  ;
   width: 517px;
-  height:50px ;
+  height: 50px;
   border: 0ch;
   border-radius: 12px;
 }
 
-.email-map{
+.email-map {
   position: absolute;
   bottom: 450px;
   left: 720px;
   background: #FFFFFF;
-  border-radius: 12px;;
+  border-radius: 12px;
+  ;
   width: 517px;
-  height:50px ;
+  height: 50px;
   border: 0ch;
   border-radius: 12px;
 }
 
-.coment-map{
+.coment-map {
   position: absolute;
   bottom: 155px;
   left: 720px;
   background: #FFFFFF;
-  border-radius: 12px;;
+  border-radius: 12px;
+  ;
   width: 517px;
-  height:270px ;
+  height: 270px;
   border: 0ch;
   border-radius: 12px;
 }
 
-.check-map{
+.check-map {
   position: absolute;
   bottom: 100px;
   left: 720px;
@@ -405,19 +428,19 @@ border-radius: 0px 8px 8px 0px;
   border-radius: 4px;
   width: 20px;
   height: 20px;
-  
+
 }
 
-.text-check-map{
+.text-check-map {
   position: absolute;
   bottom: 84px;
   left: 750px;
-  color: 
-  #969696;
+  color:
+    #969696;
   font-size: 19px;
 }
 
-.button-load{
+.button-load {
   position: absolute;
   left: 720px;
   bottom: 20px;
