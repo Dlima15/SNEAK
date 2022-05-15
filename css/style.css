@@ -451,3 +451,100 @@
   border-radius: 8px;
   align-items: center;
 }
+
+.footer{
+  position: relative;
+  left:-10px;
+  width: 1500px;
+  height: 417px;
+  background: #F3F3F3;
+}
+
+.footer-logo{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.footer h5{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+color: #1F1F1F;
+}
+
+.logo{
+  position: absolute;
+  top: 63px;
+  left:400px ;
+}
+
+.help{
+  position: absolute;
+  top: 63px;
+  left: 700px;
+}
+
+.social{
+  position: absolute;
+  top: 63px;
+  left: 1000px;
+}
+
+.novidades{
+  display: block;
+  list-style: none;
+  
+}
+
+.novidades a{
+ text-decoration: none;
+ color: #1F1F1F;
+}
+
+.footer-novidades ul{
+  position: absolute;
+  line-height: 35px;
+  top: 140px;
+  left: 360px;
+}
+
+.status{
+  display: block;
+  list-style: none;
+}
+
+.status a{
+  text-decoration: none;
+  color: #1F1F1F;
+}
+
+.footer-status ul{
+  position: absolute;
+  line-height: 35px;
+  top: 140px;
+  left: 660px;
+}
+
+.redes{
+  text-decoration: none;
+  list-style: none;
+}
+
+.redes img{
+  display: inline-block;
+}
+
+.footer-redes ul{
+  position: absolute;
+  top: 150px;
+  left: 953px;
+}
+
+.Crédito{
+  position: absolute;
+  top: 350px;
+  left: 530px;
+}
