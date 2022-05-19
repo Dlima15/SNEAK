@@ -84,7 +84,7 @@
   border-color: #1f1f1f;
   width: 200px;
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #E5E5E5;
   background-image: url(../img/plus.png);
   background-repeat: no-repeat;
   background-position: 3%;
@@ -97,7 +97,13 @@
   font-size: 104px;
   line-height: 104px;
   color: #dadada;
-  color: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+  background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+  
   margin-top: 91px;
 }
 
@@ -160,7 +166,7 @@
   left: 540px;
   width: 250px;
   height: 55px;
-  background-color: 0;
+  background-color: #F3F3F3;
   border: 2px solid #1f1f1f;
   border-radius: 8px;
   margin-top: 650px;
@@ -200,8 +206,11 @@
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
-  color: #dadada;
-  color: linear-gradient(270.06deg, #dadada 20.97%, #9f9f9f 99.92%);
+  background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; 
 }
 
 .content-principle1 p {
@@ -543,8 +552,21 @@ color: #1F1F1F;
   left: 953px;
 }
 
-.Crédito{
+.designed{
   position: absolute;
-  top: 350px;
-  left: 530px;
+  top: 332px;
+  left: 550px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1F1F1F;
+}
+
+.mentorama{
+  position: absolute;
+  top: 330px;
+  left: 660px;
+  color: #1F1F1F;
 }
