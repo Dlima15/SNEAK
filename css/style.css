@@ -25,7 +25,6 @@
   position: relative;
   left: 1000px;
   bottom: 48px;
-  background-image: url(../img/Ellipse-1.png);
   background-repeat: no-repeat;
   background-position: 238px -2px;
   background-size: 40px;
@@ -65,7 +64,25 @@
   border: 0px solid rgba(0, 0, 0, .4);
   width: 10px;
   height: 10px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  left: 235px;
+  top: -1px;
+  background: #F2F2F2;
+  border-radius: 50px;
 }
+
+ /*.ellipse-buy{
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  left: 235px;
+  top: -1px;
+  background: #F2F2F2;
+  border-radius: 50px;
+  
+}*/
 
 .logo-sneak {
   position: relative;
@@ -82,6 +99,7 @@
 .first-content button {
   border-radius: 12px;
   border-color: #1f1f1f;
+  background-color: white;
   width: 200px;
   height: 50px;
   background-image: url(../img/plus.png);
@@ -464,8 +482,16 @@ text-fill-color: transparent;
   position: relative;
   left:-10px;
   width: 1500px;
-  height: 417px;
+  height: 317px;
   background: #F3F3F3;
+}
+
+.crédito{
+  position: absolute;
+  top: 310px;
+  width: 1500px;
+  height: 70px;
+  background: #F2F2F2;
 }
 
 .footer-logo{
@@ -553,7 +579,7 @@ color: #1F1F1F;
 
 .designed{
   position: absolute;
-  top: 332px;
+  top: 10px;
   left: 550px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -561,13 +587,12 @@ color: #1F1F1F;
   font-size: 20px;
   line-height: 28px;
   color: #1F1F1F;
-  background-color: #F2F2F2;
 }
 
 .mentorama{
   position: absolute;
-  top: 330px;
+  top: 8px;
   left: 660px;
   color: #1F1F1F;
-  background-color: #F2F2F2;
 }
+
