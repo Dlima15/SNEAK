@@ -118,18 +118,17 @@ padding-top: 40px;
 padding-top: 80px;
 }
 
-
-
 .first-content button{
 border-radius: 12px;
 border-color: #1f1f1f;
 background-color:  #FFFFFF;
 width: 200px;
 height: 50px;
-background-image: url(../img/plus.png);
-background-repeat: no-repeat;
-background-position: 90%;
+}
 
+.box-button-1 img{
+  width: 12px;
+  height: 12px;
 }
 
 .img-first-content{
@@ -212,9 +211,6 @@ border-color: #1f1f1f;
 background: #F3F3F3;
 width: 200px;
 height: 50px;
-background-image: url(../img/plus.png);
-background-repeat: no-repeat;
-background-position: 90%;
 }
 
 .box-agility{
@@ -308,15 +304,22 @@ height: 720px;
 background-image: url("../img/Image.png");
 }
 
+.content-run100{
+  Padding: 10px;
+}
+
+.box-run100 img{
+  padding-right: 20px;
+}
+
 .box-run100 h2{
 
-padding: 50px;
+padding: 10px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
 font-size: 84px;
 line-height: 104px;
-padding-top: 80px;
 align-items: center;
 letter-spacing: -0.02em;
 
@@ -367,7 +370,7 @@ background: #FFFFFF;
 margin-left: 40px;
 padding-left: 25px;
 border-radius: 12px;
-width: 417px;
+width: 80%;
 height: 50px;
 border: 0ch;
 border-radius: 12px;
@@ -386,7 +389,7 @@ background: #FFFFFF;
 margin: 40px;
 padding-left: 25px;
 border-radius: 12px;
-width: 417px;
+width: 80%;
 height: 50px;
 border: 0ch;
 border-radius: 12px;
@@ -402,7 +405,7 @@ color: #969696;
 
 .coment-local textarea{
 background: #FFFFFF;
-width: 440px;
+width: 76%;
 height: 160px;
 border-radius: 12px;
 border: 0ch;    
@@ -569,7 +572,7 @@ margin-left: 5px;
 }
 
 .button-local button{
-width: 250px;
+width: 84%;
 height: 55px;
 background: #F3F3F3;
 border: 2px solid #1f1f1f;
