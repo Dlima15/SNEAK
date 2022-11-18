@@ -87,6 +87,7 @@ padding-top: 0px;
 
 .box-title1{
   height: 330px;
+  width: 500px;
 }
 
 .first-content p{
@@ -111,7 +112,7 @@ background-clip: text;
 }
 
 .box-p-1{
-padding-top: 40px;
+padding-top: -860px;
 }
 
 .box-button-1{
@@ -128,14 +129,18 @@ height: 50px;
 
 .box-button-1 img{
   width: 12px;
-  height: 12px;
+  height: 12px
+}
+
+.img-first-content img{
+  margin-left: -120px;
 }
 
 .img-first-content{
 padding-top: 20px;
 background-image: url("../img/Ellipse-1.png");
 background-repeat: no-repeat;
-background-position: 270px 20px;
+background-position: 120px 20px;
 }
 
 .itens-content1 h2{
@@ -277,6 +282,7 @@ margin: 40px;
 }
 
 .text-stabilization h2{
+height: 130px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
@@ -343,6 +349,7 @@ margin: 10px;
 }
 
 .form-local{
+align-items: center;
 display: flex;
 margin: 40px;
 }
