@@ -31,8 +31,15 @@ padding-left: 45px;
 }
 
 .menus a {
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Lato';
+  font-style: normal;
 text-decoration: none;
 color: #1f1f1f;
+
 }
 
 .div-input{
@@ -66,12 +73,19 @@ color: #969696;
 }
 
 .buy{
-
 border-radius: 50px;
 border: 0px;
 }
 
+.buy img{
+  width: 13px;
+  height: 15px;
+}
+
 .botao-sacola{
+  width: 30px;
+  height: 30px;
+margin-left: 15px;
 border-radius: 50%;
 border: 0px;
 border-radius: 50px;
@@ -112,7 +126,18 @@ background-clip: text;
 }
 
 .box-p-1{
-padding-top: -860px;
+  width: 530px;
+  padding-top: -860px;
+}
+
+.box-p-1 p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;  
+  color: #1F1F1F;
+  
 }
 
 .box-button-1{
@@ -137,6 +162,7 @@ height: 50px;
 }
 
 .img-first-content{
+height: 585px;
 padding-top: 20px;
 background-image: url("../img/Ellipse-1.png");
 background-repeat: no-repeat;
@@ -351,18 +377,18 @@ margin: 10px;
 .form-local{
 align-items: center;
 display: flex;
-margin: 40px;
+margin: 20px;
 }
 
 .img-localization img{
-width: 677px;
-height: 638px;
+width: 777px;
+height: 738px;
 border-radius: 8px 0px 0px 8px;
 }
 
 .box-formap{
-width: 677px;
-height: 638px;
+width:577px;
+height: 738px;
 background: #F3F3F3;
 border-radius: 0px 8px 8px 0px;
 }
@@ -373,6 +399,7 @@ padding-left: 40px;
 }
 
 .name-local input{
+  margin-top: 24px;
 background: #FFFFFF;
 margin-left: 40px;
 padding-left: 25px;
@@ -425,6 +452,10 @@ font-size: 20px;
 line-height: 28px;
 
 color: #969696;
+}
+
+.button-local{
+  margin-top: 24px;
 }
 
 .footer{
@@ -549,6 +580,10 @@ line-height: 28px;
 color: #1F1F1F;
 text-align: center;
 padding-bottom: 30px;
+}
+
+.mentorama img{
+  padding-left: 4px;
 }
 
 .button-local{
